@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.814cd2e2.chunk.css",
+    "main.js": "/portfolio/static/js/main.346c0161.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.346c0161.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/css/2.f207efe9.chunk.css": "/portfolio/static/css/2.f207efe9.chunk.css",
+    "static/js/2.e3ef438d.chunk.js": "/portfolio/static/js/2.e3ef438d.chunk.js",
+    "static/js/2.e3ef438d.chunk.js.map": "/portfolio/static/js/2.e3ef438d.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.ed74b1c76d15355910955e4acd93249d.js": "/portfolio/precache-manifest.ed74b1c76d15355910955e4acd93249d.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.f207efe9.chunk.css.map": "/portfolio/static/css/2.f207efe9.chunk.css.map",
+    "static/css/main.814cd2e2.chunk.css.map": "/portfolio/static/css/main.814cd2e2.chunk.css.map",
+    "static/js/2.e3ef438d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e3ef438d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio/static/media/AvenirNextLTPro-Regular.b5ed9330.otf",
+    "static/media/WMS.jpg": "/portfolio/static/media/WMS.944c30ef.jpg",
+    "static/media/semantic.min.css": "/portfolio/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/Home.css": "/portfolio/static/media/imageedit_1_3658399494.abb30ba0.jpg",
+    "static/media/login.jpg": "/portfolio/static/media/login.56fa3fe9.jpg",
+    "static/media/planning.jpg": "/portfolio/static/media/planning.66908dca.jpg",
+    "static/media/quiz.jpg": "/portfolio/static/media/quiz.7053ba56.jpg",
+    "static/media/slick-theme.css": "/portfolio/static/media/slick.f97e3bbf.svg",
+    "static/media/tarun_thota.jpg": "/portfolio/static/media/tarun_thota.58c64c7c.jpg",
+    "static/media/weather.jpg": "/portfolio/static/media/weather.2b205f3f.jpg",
+    "static/media/zynla.jpg": "/portfolio/static/media/zynla.6e1faefb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/css/2.f207efe9.chunk.css",
+    "static/js/2.e3ef438d.chunk.js",
+    "static/css/main.814cd2e2.chunk.css",
+    "static/js/main.346c0161.chunk.js"
+  ]
+}
