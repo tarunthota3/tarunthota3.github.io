@@ -42,7 +42,7 @@ function Contact(props) {
                 email: email,
                 message: message
             }
-            fetch('https://thawing-wave-21075.herokuapp.com//mail', {
+            fetch('https://thawing-wave-21075.herokuapp.com/mail', {
                 method: 'post',
                 body:    JSON.stringify(body),
                 headers: { 'Content-Type': 'application/json' },
