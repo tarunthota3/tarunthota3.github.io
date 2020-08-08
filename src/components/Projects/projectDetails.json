@@ -1,0 +1,33 @@
+[
+    {
+        "name":"Quiz Platform",
+        "image":"quiz.jpg",
+        "description":"A sample web application for users to login in a participate in the quiz"
+    },
+    {
+        "name":"Zynla",
+        "image":"zynla.jpg",
+        "description":"A social collaborative learning platform where questions are asked. answered, edited and organised by its community of users"
+    },
+    {
+        "name":"Wholesale Management System",
+        "image":"WMS.jpg",
+        "description":"An application for wholesale business to computerie their data management and maximize their sales"
+    },
+    {
+        "name":"Weather App",
+        "image":"weather.jpg",
+        "description":"An Android application which notifies about the current forecast conditions and has a prdiction about the weather in upcoming days"
+    },
+    {
+        "name":"Login via Social Handles",
+        "image":"login.jpg",
+        "description":"A sample web application which has login via social handles: facebook, Google and Twitter"
+    },
+    {
+        "name":"Planner App",
+        "image":"planning.jpg",
+        "description":"An Android application which has an interface to plan your travel to certain cities as well as the places over there with a real time map view of the area."
+    }
+
+]

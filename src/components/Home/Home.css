@@ -1,0 +1,35 @@
+.home{
+    background-image: url(../../assets/imageedit_1_3658399494.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.homeText{
+    position: absolute;
+  top: 40vh;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.name{
+    font-size: 3.5rem;
+    color: white;
+    letter-spacing: 4px;
+}
+.stack{
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 3px;
+}
+.Cursor--blinking{
+    color: white;
+    font-size: 20px;
+}
+/* .header{
+    text-align: right;
+}
+header{
+    position: unset !important;
+    padding: 9px !important;
+} */

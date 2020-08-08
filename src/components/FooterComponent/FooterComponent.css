@@ -1,0 +1,12 @@
+footer{
+    background-color: #202020;
+    padding: 1% 1% 1% 1%;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.footerText{
+    color: white;
+    text-align: center;
+}

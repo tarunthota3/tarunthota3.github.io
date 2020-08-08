@@ -1,0 +1,11 @@
+.projectName{
+    text-align: left !important;
+}
+.cardContent{
+    padding: 25px !important;
+    height: 150px;
+}
+.slick-list{
+    padding-left: 4% !important;
+    padding-bottom: 2% !important;
+}

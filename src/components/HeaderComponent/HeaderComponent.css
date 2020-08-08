@@ -1,0 +1,16 @@
+.linkTag{
+    color:white;
+    padding-right: 2%;
+}
+.linkTag:hover{
+    color:white;
+    text-decoration: underline;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    text-align: right;
+    z-index: 1000;
+    padding-top: 6px;
+}

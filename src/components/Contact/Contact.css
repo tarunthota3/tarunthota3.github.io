@@ -1,0 +1,99 @@
+.contact{
+    background-image: url(../../assets/imageedit_1_3658399494.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.contactText{
+    color: black;
+    font-size: 2.0rem;
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.contactParent{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emptyBox{
+    flex-grow: 2;
+    flex-basis: 5%;
+}
+.getInTouchBox{
+    background-color: white;
+    flex-grow: 5;
+    flex-basis: 40%;
+    height: 70vh;
+    border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+}
+.sendMessageBox{
+    background-color: white;
+    flex-grow: 5;
+    flex-basis: 50%;
+    height: 70vh;
+    border-radius: 0 20px 20px 0;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+}
+.getInTouchText{
+    color: black;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 7%;
+    letter-spacing: 3px;
+}
+.sendMessageDiv{
+    color: black;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 7%;
+    padding-right: 3%;
+    letter-spacing: 3px;
+}
+.sendMessageDiv1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nameDiv{
+    flex-grow: 5;
+    flex-basis: 40%;
+}
+.emailDiv{
+    flex-grow: 5;
+    flex-basis: 40%;
+}
+.messageDiv{
+    margin-top: 2%;
+}
+.nameTextBox{
+    margin-top: 2%;
+}
+.emailTextBox{
+    margin-top: 2%;
+}
+.messageTextAreaBox{
+    margin-top: 2%;
+    width: 100%;
+}
+.customButton{
+    margin-top: 2% !important;
+    float: right;
+}
+.link{
+    color:black;
+}
+.link:hover{
+    color:black;
+}

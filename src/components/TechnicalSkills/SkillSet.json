@@ -1,0 +1,5 @@
+{
+    "label": ["HTML", "CSS",       "JS",    "React",  "MongoDB", "NodeJS",   "Java",    "Python", "D3"],
+    "values":[95,       59,         100,         90,         80,     85,     50,         25,       45],
+    "colors": ["#76B7B1","#59A14F","#ECC947","#B17AA1","#FE9DA6","#9B755E","#BAB1AC","#F28E2C","#E15659"]
+}
