@@ -1,12 +1,4 @@
-@font-face {
-  font-family: "Avenir";
-  src: url("css/fonts/Avenir/AvenirNextLTPro-Bold.otf"),
-  url("css/fonts/Avenir/AvenirNextLTPro-It.otf"),
-  url("css/fonts/Avenir/AvenirNextLTPro-Regular.otf")
-  }
-
-
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 body {
-  /* font-family: 'Avenir', sans-serif; */
-  font-family: 'Pacifico', cursive;
+  font-family: 'Montserrat', sans-serif !important;
 }

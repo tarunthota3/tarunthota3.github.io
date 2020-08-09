@@ -1,0 +1,1 @@
+exports.SERVER_URL = "https://thawing-wave-21075.herokuapp.com";

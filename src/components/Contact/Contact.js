@@ -4,6 +4,7 @@ import "./Contact.css";
 import FooterComponent from '../FooterComponent/FooterComponent';
 import { ToastContainer } from "react-toastr";
 const fetch = require('node-fetch');
+const SERVER_URL = require('../../config/dev.js').SERVER_URL;
 let container;
 
 
@@ -42,7 +43,7 @@ function Contact(props) {
                 email: email,
                 message: message
             }
-            fetch('https://thawing-wave-21075.herokuapp.com/mail', {
+            fetch(SERVER_URL + '/mail', {
                 method: 'post',
                 body:    JSON.stringify(body),
                 headers: { 'Content-Type': 'application/json' },
@@ -80,7 +81,6 @@ function Contact(props) {
                 className="toast-top-right"
             />
             <div className="contactParent">
-                <div className="emptyBox"></div>
                 <div className="getInTouchBox">
                     <div className="contactText">
                         Get in Touch
@@ -127,7 +127,6 @@ function Contact(props) {
                         </div>
                     </div>
                 </div>
-                <div className="emptyBox"></div>
             </div>
             <FooterComponent/>
         </div>
