@@ -1,1 +1,1 @@
-exports.SERVER_URL = "http://localhost:8000";
+exports.SERVER_URL = "https://thawing-wave-21075.herokuapp.com";
