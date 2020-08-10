@@ -96,9 +96,11 @@ function Contact(props) {
                     <div className="getInTouchText">
                         Thank you! You can contact me
                         <br/>
-                        by using this form or by
+                        by using this form or please
                         <br/>
-                        sending me an email
+                        stay connected with me on
+                        <br/>
+                        the social platforms.
                         <br/>
                         <br/>
                         <a className="link" href="https://www.linkedin.com/in/tarun-thota/" target="_blank" >

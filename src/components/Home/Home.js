@@ -1,16 +1,13 @@
 import React from 'react';
 import Typist from 'react-typist';
-import LightSpeed from 'react-reveal/LightSpeed';
 import './Home.css';
 
 function Home(props) {
     return (
         <div className="home">
             <div className="homeText">
-                <LightSpeed>
 
             <h1 className='name'>TARUN THOTA</h1>
-                </LightSpeed>
             <center>
             <Typist cursor={{ hideWhenDone: true,hideWhenDoneDelay: 0 }}>
                 <span className="stack"> Front End Developer</span>

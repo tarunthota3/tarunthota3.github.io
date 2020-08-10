@@ -48,27 +48,29 @@ function TechnicalSkills(props) {
     return (
         <div className="technicalSkills">
           <div class="technicalSkillsParent">
-          <div className="chartDiv">
-              <Polar data={data} options={options} />
-          </div>
         <div className="techStackContent">
         <span className="tsText">Technical Skills</span>
           <p className="tsContent">
             <span className="ts">
-               I am a cerified full stack developer. I have been working on building Web Applications using ReactJS as fron-end, ExpressJS as middleware and NodeJS as backend.
-               I also had an working on building Mobile applications using React Native and Android Studio.
+              I have been working on developing production grade Web Applications using Mongo, ExpressJS, ReactJS and NodeJS(MERN). I am also well versed in building Mobile Applications using React Native and Android Studio.
+              I had been challenged even on Visualization tools which led me to get well experience on D3 JS and Neo4J.  
             </span>
             <br/>
             <span className="ts1">
-                I have also worked on visualization tools such as D3.JS and integrated with databases such as MongoDB and Neo4j.
+              With a zeal to explore on how to host Web and Android Applications, I had an opportunity to explore some of the cloud services such as AWS, Heroku.
             </span>
             <br/>
             <span className="ts1">
-                I have worked on integrating the built web and android applications with cloud services such as AWS. I have written python ans Node scripts which interacts the services and process and gets back the data, processes it and send it back for further validation.
-                Based on my interest I have worked on hosting these applcaitons in IAAS(AWS EC2) server and serverless(AWS Lambda) servers based on the requirements.
+              I have written and integrated Python scripts which processes the data and interacts back with the web application.
+            </span>
+            <span className="ts1">
+              My current interest lie in the field of data science concentration at UNCC.
             </span>
           </p>
         </div>
+        <div className="chartDiv">
+              <Polar data={data} options={options} />
+          </div>
       </div>
     </div>
     );

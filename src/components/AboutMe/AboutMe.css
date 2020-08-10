@@ -17,7 +17,7 @@
 }
 .aboutMeText{
     position: relative;
-    top: 47vh;
+    top: 54vh;
     left: 50%;
     right: 40%;
     box-sizing: border-box;
@@ -33,6 +33,9 @@
 img {
     border-radius: 50%;
     width: 40%;
+  }
+  .profilePic{
+    margin-top: 10%;
   }
   .amText{
       color: black;
