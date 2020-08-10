@@ -90,3 +90,7 @@
 .link:hover{
     color:black;
 }
+.customToastr{
+    top: 5%;
+    position: absolute !important;
+}

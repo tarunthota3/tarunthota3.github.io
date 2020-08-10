@@ -57,18 +57,26 @@ function Contact(props) {
                  setName("");
                  setEmail("");
                  setMessage("");
-                //  container.success(`Message has been successfully sent`, {
-                //     closeButton: true,
-                // })
-                 alert("Message has been successfully sent");
+                container.success(
+                    `Message has been successfully sent. You will be notified by the author soon`, ``, {
+                      timeOut: 2500,
+                      extendedTimeOut: 10000,
+                      allowHtml: true,
+                      closeButton: true,
+                    });
+                //  alert("Message has been successfully sent");
              }
            })
            .catch(err => 
             {
-                // container.warning(`Error in sending the data`, {
-                //     closeButton: true,
-                // })
-               alert("Error in sending the data")
+                container.warning(
+                    `Error in sending the data. Please try again later`, ``, {
+                        timeOut: 2500,
+                        extendedTimeOut: 10000,
+                        allowHtml: true,
+                        closeButton: true,
+                    });
+            //    alert("Error in sending the data")
            })
             
         }
@@ -78,7 +86,7 @@ function Contact(props) {
         <div className="contact">
             <ToastContainer
                 ref={ref => container = ref}
-                className="toast-top-right"
+                className=" customToastr toast-top-right"
             />
             <div className="contactParent">
                 <div className="getInTouchBox">
