@@ -2,6 +2,7 @@
     text-align: left !important;
 }
 .cardContent{
+    margin-bottom: 13px !important;
     padding: 25px !important;
     height: 150px;
 }
