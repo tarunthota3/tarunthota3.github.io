@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Input, Icon, TextArea, Button} from 'semantic-ui-react';
+import {Input, Icon, TextArea, Button, Dimmer, Loader} from 'semantic-ui-react';
 import "./Contact.css";
 import FooterComponent from '../FooterComponent/FooterComponent';
 import { ToastContainer } from "react-toastr";
@@ -12,6 +12,7 @@ function Contact(props) {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+    const [dimmerActive, setDimmerActive] = useState(false);
 
     const validateEmail = (email) => {
         const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -21,22 +22,23 @@ function Contact(props) {
     }
     const handleSubmit = () =>{
         console.log("inside handle submit function");
-        if(name.length == 0){
+        if(name.length === 0){
             alert("Please enter the name");
         }
-        else if(email.length == 0){
+        else if(email.length === 0){
             alert("Please enter the email");
         }
         else if(!validateEmail(email)){
             alert("email is not valid");
         }
-        else if(message.length == 0){
+        else if(message.length === 0){
             alert("Please enter a message");
         }
         else if(message.length < 8){
             alert("message can't be less than 8 characters");
         }
         else{
+            setDimmerActive(true);
             console.log("validation success");
             const body = {
                 name: name,
@@ -53,10 +55,11 @@ function Contact(props) {
            })
            .then((json) => {
              console.log(json);
-             if(json.statusCode == 200 && json.message == "Message successfully sent"){
+             if(json.statusCode === 200 && json.message === "Message successfully sent"){
                  setName("");
                  setEmail("");
                  setMessage("");
+                 setDimmerActive(false);
                 container.success(
                     `Message has been successfully sent. You will be notified by the author soon`, ``, {
                       timeOut: 2500,
@@ -69,6 +72,7 @@ function Contact(props) {
            })
            .catch(err => 
             {
+                setDimmerActive(false);
                 container.warning(
                     `Error in sending the data. Please try again later`, ``, {
                         timeOut: 2500,
@@ -88,6 +92,9 @@ function Contact(props) {
                 ref={ref => container = ref}
                 className=" customToastr toast-top-right"
             />
+            <Dimmer active={dimmerActive}>
+                <Loader></Loader>
+            </Dimmer>
             <div className="contactParent">
                 <div className="getInTouchBox">
                     <div className="contactText">

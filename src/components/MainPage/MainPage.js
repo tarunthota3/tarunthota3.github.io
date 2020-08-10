@@ -13,7 +13,7 @@ function MainPage() {
   const SEL = 'custom-section';
   const SECTION_SEL = `.${SEL}`;
   const onLeave =(origin, destination, direction) => {
-    if(destination.index == 0 || destination.index == 4){
+    if(destination.index === 0 || destination.index === 4){
         setColor('unset');
     }
     else{
