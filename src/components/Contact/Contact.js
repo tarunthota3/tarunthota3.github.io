@@ -23,19 +23,54 @@ function Contact(props) {
     const handleSubmit = () =>{
         console.log("inside handle submit function");
         if(name.length === 0){
-            alert("Please enter the name");
+            // alert("Please enter the name");
+            container.warning(
+                `Please enter the name`, ``, {
+                    timeOut: 2500,
+                    extendedTimeOut: 10000,
+                    allowHtml: true,
+                    closeButton: true,
+                });
         }
         else if(email.length === 0){
-            alert("Please enter the email");
+            // alert("Please enter the email");
+            container.warning(
+                `Please enter the email`, ``, {
+                    timeOut: 2500,
+                    extendedTimeOut: 10000,
+                    allowHtml: true,
+                    closeButton: true,
+                });
         }
         else if(!validateEmail(email)){
-            alert("email is not valid");
+            // alert("email is not valid");
+            container.warning(
+                `email is not valid`, ``, {
+                    timeOut: 2500,
+                    extendedTimeOut: 10000,
+                    allowHtml: true,
+                    closeButton: true,
+                });
         }
         else if(message.length === 0){
-            alert("Please enter a message");
+            // alert("Please enter a message");
+            container.warning(
+                `Please enter a message`, ``, {
+                    timeOut: 2500,
+                    extendedTimeOut: 10000,
+                    allowHtml: true,
+                    closeButton: true,
+                });
         }
         else if(message.length < 8){
-            alert("message can't be less than 8 characters");
+            // alert("message can't be less than 8 characters");
+            container.warning(
+                `Message can't be less than 8 characters`, ``, {
+                    timeOut: 2500,
+                    extendedTimeOut: 10000,
+                    allowHtml: true,
+                    closeButton: true,
+                });
         }
         else{
             setDimmerActive(true);
@@ -105,9 +140,9 @@ function Contact(props) {
                         <br/>
                         by using this form or please
                         <br/>
-                        stay connected with me on
+                        stay connected with me
                         <br/>
-                        the social platforms.
+                        on the social platforms.
                         <br/>
                         <br/>
                         <a className="link" href="https://www.linkedin.com/in/tarun-thota/" target="_blank" >
