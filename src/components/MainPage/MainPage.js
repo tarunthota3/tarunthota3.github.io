@@ -7,6 +7,7 @@ import Projects from "../Projects/Projects";
 import Contact from '../Contact/Contact';
 import Home from '../Home/Home';
 import './MainPage.css';
+const LICENSE_KEY = require('../../config/key').LICENSE_KEY;
 
 function MainPage() {
   const [ color, setColor ] = useState('unset');
@@ -27,6 +28,7 @@ function MainPage() {
         <HeaderComponent color={color}/>
         <ReactFullpage
           navigation
+          licenseKey={LICENSE_KEY}
           anchors={['home','aboutMe', 'technicalSkills', 'projects', 'contact']}
           sectionSelector={SECTION_SEL}
           onLeave={onLeave}

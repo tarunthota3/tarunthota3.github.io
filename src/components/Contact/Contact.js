@@ -16,12 +16,12 @@ function Contact(props) {
 
     const validateEmail = (email) => {
         const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        console.log(re.test(String(email).toLowerCase()));
+        // console.log(re.test(String(email).toLowerCase()));
         
         return re.test(String(email).toLowerCase());
     }
     const handleSubmit = () =>{
-        console.log("inside handle submit function");
+        // console.log("inside handle submit function");
         if(name.length === 0){
             // alert("Please enter the name");
             container.warning(
@@ -74,7 +74,7 @@ function Contact(props) {
         }
         else{
             setDimmerActive(true);
-            console.log("validation success");
+            // console.log("validation success");
             const body = {
                 name: name,
                 email: email,
@@ -89,7 +89,7 @@ function Contact(props) {
                 return res.json()
            })
            .then((json) => {
-             console.log(json);
+            //  console.log(json);
              if(json.statusCode === 200 && json.message === "Message successfully sent"){
                  setName("");
                  setEmail("");

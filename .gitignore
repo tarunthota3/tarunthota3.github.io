@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# license key
+/src/config/key.js
+
 # testing
 /coverage
 

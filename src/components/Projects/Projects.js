@@ -25,7 +25,7 @@ function Projects(props) {
                     {ProjectDetails.map((item, key) =>{
                         var img = images('./' + item.image);
                         return (
-                            <CardComponent name={item.name} image={img} description={item.description} link={item.link} />
+                            <CardComponent key={key} name={item.name} image={img} description={item.description} link={item.link} />
                         )
                     }
                     )}

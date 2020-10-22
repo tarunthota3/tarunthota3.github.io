@@ -2,7 +2,7 @@ import React from 'react';
 import "./HeaderComponent.css";
 
 function HeaderComponent(props) {
-    console.log("props: ", props);
+    // console.log("props: ", props);
     let boxShadow = "none";
     if(props.color === "black"){
         boxShadow = '0px 5px 9px 0px lightslategrey';
