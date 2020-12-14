@@ -10,7 +10,7 @@ function CardComponent(props) {
     <Image src={props.image} wrapped ui={true} />
     <Card.Content className="cardContent">
       <Card.Header className="projectName">
-      <a href={props.link} target="_blank" className="viewProjectLink">
+      <a href={props.link} rel="noopener noreferrer" target="_blank" className="viewProjectLink">
         {props.name}
         </a>
         </Card.Header>

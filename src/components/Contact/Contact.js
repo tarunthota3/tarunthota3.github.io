@@ -15,7 +15,7 @@ function Contact(props) {
     const [dimmerActive, setDimmerActive] = useState(false);
 
     const validateEmail = (email) => {
-        const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()   [\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         // console.log(re.test(String(email).toLowerCase()));
         
         return re.test(String(email).toLowerCase());
@@ -145,10 +145,10 @@ function Contact(props) {
                         on the social platforms.
                         <br/>
                         <br/>
-                        <a className="link" href="https://www.linkedin.com/in/tarun-thota/" target="_blank" >
+                        <a className="link" href="https://www.linkedin.com/in/tarun-thota/" rel="noopener noreferrer" target="_blank" >
                             <Icon size="big" name='linkedin' />
                         </a>
-                        <a className="link" href="https://github.com/tarunthota3" target="_blank" >
+                        <a className="link" href="https://github.com/tarunthota3" rel="noopener noreferrer" target="_blank" >
                             <Icon size="big" name='github' />
                         </a>
                     </div>

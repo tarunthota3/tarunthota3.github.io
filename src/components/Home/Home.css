@@ -26,6 +26,14 @@
     color: white;
     font-size: 20px;
 }
+.resumeButton{
+    margin-top: 2% !important;
+    border-radius: 50px !important;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    -ms-border-radius: 50px !important;
+    -o-border-radius: 50px !important;
+}
 /* .header{
     text-align: right;
 }
