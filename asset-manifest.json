@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3ce1c25.chunk.css",
-    "main.js": "/static/js/main.e22eda07.chunk.js",
-    "main.js.map": "/static/js/main.e22eda07.chunk.js.map",
+    "main.css": "/static/css/main.84a01ec3.chunk.css",
+    "main.js": "/static/js/main.36339d91.chunk.js",
+    "main.js.map": "/static/js/main.36339d91.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.92158927.chunk.css": "/static/css/2.92158927.chunk.css",
-    "static/js/2.fb06b61f.chunk.js": "/static/js/2.fb06b61f.chunk.js",
-    "static/js/2.fb06b61f.chunk.js.map": "/static/js/2.fb06b61f.chunk.js.map",
+    "static/js/2.e9d2487a.chunk.js": "/static/js/2.e9d2487a.chunk.js",
+    "static/js/2.e9d2487a.chunk.js.map": "/static/js/2.e9d2487a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a0cbd50807d3a4af8a53846d00faa7cc.js": "/precache-manifest.a0cbd50807d3a4af8a53846d00faa7cc.js",
+    "precache-manifest.2e9c6a0056eb368679b8f850031bd0cc.js": "/precache-manifest.2e9c6a0056eb368679b8f850031bd0cc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.92158927.chunk.css.map": "/static/css/2.92158927.chunk.css.map",
-    "static/css/main.f3ce1c25.chunk.css.map": "/static/css/main.f3ce1c25.chunk.css.map",
-    "static/js/2.fb06b61f.chunk.js.LICENSE.txt": "/static/js/2.fb06b61f.chunk.js.LICENSE.txt",
+    "static/css/main.84a01ec3.chunk.css.map": "/static/css/main.84a01ec3.chunk.css.map",
+    "static/js/2.e9d2487a.chunk.js.LICENSE.txt": "/static/js/2.e9d2487a.chunk.js.LICENSE.txt",
     "static/media/WMS.jpg": "/static/media/WMS.944c30ef.jpg",
     "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
     "static/media/Home.css": "/static/media/imageedit_1_3658399494.abb30ba0.jpg",
@@ -22,14 +22,15 @@
     "static/media/quiz.jpg": "/static/media/quiz.7053ba56.jpg",
     "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
     "static/media/tarun_thota.jpg": "/static/media/tarun_thota.58c64c7c.jpg",
+    "static/media/tarun_thota_resume.pdf": "/static/media/tarun_thota_resume.e2dc8003.pdf",
     "static/media/weather.jpg": "/static/media/weather.2b205f3f.jpg",
     "static/media/zynla.jpg": "/static/media/zynla.6e1faefb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.92158927.chunk.css",
-    "static/js/2.fb06b61f.chunk.js",
-    "static/css/main.f3ce1c25.chunk.css",
-    "static/js/main.e22eda07.chunk.js"
+    "static/js/2.e9d2487a.chunk.js",
+    "static/css/main.84a01ec3.chunk.css",
+    "static/js/main.36339d91.chunk.js"
   ]
 }

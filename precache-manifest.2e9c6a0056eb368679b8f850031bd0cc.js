@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2366d7df7e24d8d893d3d898f24ce9f9",
+    "revision": "4b27e7c2ba52ed2277739fcc4ebd3ca1",
     "url": "/index.html"
   },
   {
-    "revision": "f246644f4ff5e22fb7dc",
+    "revision": "77ff429798db3daabac6",
     "url": "/static/css/2.92158927.chunk.css"
   },
   {
-    "revision": "9e556d54215da61c2a92",
-    "url": "/static/css/main.f3ce1c25.chunk.css"
+    "revision": "82f1c7191ec9502dcf34",
+    "url": "/static/css/main.84a01ec3.chunk.css"
   },
   {
-    "revision": "f246644f4ff5e22fb7dc",
-    "url": "/static/js/2.fb06b61f.chunk.js"
+    "revision": "77ff429798db3daabac6",
+    "url": "/static/js/2.e9d2487a.chunk.js"
   },
   {
     "revision": "f8f5d553e2be85e27f23b073861cdb9c",
-    "url": "/static/js/2.fb06b61f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e9d2487a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e556d54215da61c2a92",
-    "url": "/static/js/main.e22eda07.chunk.js"
+    "revision": "82f1c7191ec9502dcf34",
+    "url": "/static/js/main.36339d91.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -130,6 +130,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "58c64c7c0037d771d783aa5e561bc359",
     "url": "/static/media/tarun_thota.58c64c7c.jpg"
+  },
+  {
+    "revision": "e2dc800381d27adbf4b53974743c3c06",
+    "url": "/static/media/tarun_thota_resume.e2dc8003.pdf"
   },
   {
     "revision": "2b205f3f9231abe5f2e6cc4750a0c090",
